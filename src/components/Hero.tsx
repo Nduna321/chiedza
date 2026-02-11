@@ -37,13 +37,13 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mb-12 sm:mb-16">
             <a
-              href="#contact"
+              href="/contact"
               className="bg-amber-600 hover:bg-amber-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base lg:text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center"
             >
               Reserve Your Stand
             </a>
             <a
-              href="#features"
+              href="/about"
               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base lg:text-lg transition-all duration-300 border border-white/20 text-center"
             >
               Learn More

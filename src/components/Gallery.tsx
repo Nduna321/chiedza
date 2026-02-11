@@ -81,7 +81,7 @@ export default function Gallery() {
             Interested in a site visit? See the development firsthand and envision your future at Chiedza.
           </p>
           <a
-            href="#contact"
+            href="/contact"
             className="inline-block bg-amber-600 hover:bg-amber-700 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 text-sm sm:text-base"
           >
             Schedule a Visit

@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12">
           <div className="space-y-6 sm:space-y-8">
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Get in Touch</h3>
+              <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Get in Touch</h2>
               <p className="text-gray-300 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8">
                 Our team is ready to assist you with any questions and guide you through the process of securing your ideal property at Chiedza Gated Community.
               </p>
