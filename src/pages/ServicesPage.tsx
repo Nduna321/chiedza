@@ -52,42 +52,42 @@ const services = [
 export default function ServicesPage() {
   return (
     <div className="pt-20">
-      <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+      <section className="py-12 sm:py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">
               Our Services
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-2">
               Comprehensive services designed to support your investment and lifestyle at Chiedza Gated Community.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+                className="bg-white p-5 sm:p-6 rounded-lg sm:rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 sm:hover:-translate-y-2 border border-gray-100"
               >
-                <div className="bg-amber-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
-                  <service.icon className="w-8 h-8 text-amber-600" />
+                <div className="bg-amber-100 w-14 h-14 sm:w-16 sm:h-16 rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-6">
+                  <service.icon className="w-7 h-7 sm:w-8 sm:h-8 text-amber-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{service.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">{service.title}</h3>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{service.description}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-16 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-8 sm:p-12 border border-amber-200">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+          <div className="mt-10 sm:mt-16 bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg sm:rounded-2xl p-6 sm:p-8 lg:p-12 border border-amber-200">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
               Ready to Experience Quality Living?
             </h2>
-            <p className="text-gray-700 mb-8 max-w-2xl">
+            <p className="text-sm sm:text-base text-gray-700 mb-6 sm:mb-8 max-w-2xl">
               Our dedicated team is ready to assist you with any questions about our services and help you find the perfect property at Chiedza Gated Community.
             </p>
             <a
               href="/contact"
-              className="inline-block bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              className="inline-block bg-amber-600 hover:bg-amber-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 text-sm sm:text-base"
             >
               Get Started Today
             </a>
