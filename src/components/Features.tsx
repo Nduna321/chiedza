@@ -1,4 +1,4 @@
-import { Shield, MapPin, Building, Home, TrendingUp, CheckCircle } from 'lucide-react';
+import { Building, CheckCircle, Home, MapPin, Shield, TrendingUp } from 'lucide-react';
 
 const features = [
   {
@@ -39,7 +39,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Choose Chiedza?
+            Why Choose Muneni?
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-2">
             Experience the perfect blend of security, convenience, and modern living in Karoi's most promising gated community.

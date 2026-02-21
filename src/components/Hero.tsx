@@ -1,4 +1,4 @@
-import { MapPin, Shield, Home } from 'lucide-react';
+import { Home, MapPin, Shield } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -6,7 +6,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(/WhatsApp_Image_2026-02-09_at_16.16.30.jpeg)',
+          backgroundImage: 'url(/m1.jpeg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -23,7 +23,7 @@ export default function Hero() {
 
           <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
             Welcome to<br />
-            <span className="text-amber-500">Chiedza</span> Gated Community
+            <span className="text-amber-500">Muneni</span> Gated Community
           </h1>
 
           <p className="text-base sm:text-xl lg:text-2xl text-gray-200 mb-3 sm:mb-4 leading-relaxed max-w-2xl">
@@ -37,10 +37,11 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mb-12 sm:mb-16">
             <a
-              href="/contact"
+              href="/muneni.pdf"
+              download
               className="bg-amber-600 hover:bg-amber-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base lg:text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center"
             >
-              Reserve Your Stand
+              Apply To Join The Waiting List
             </a>
             <a
               href="/about"

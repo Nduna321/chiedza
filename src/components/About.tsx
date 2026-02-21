@@ -1,4 +1,4 @@
-import { Building2, Award, Users } from 'lucide-react';
+import { Award, Building2, Users } from 'lucide-react';
 
 export default function About() {
   return (
@@ -15,11 +15,11 @@ export default function About() {
             </h2>
 
             <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-              Muneni Group is proud to present Chiedza Gated Community, an exclusive development that redefines modern living in Karoi Town. This prestigious project offers a rare opportunity to own a piece of paradise in a secure, contemporary neighborhood.
+              Muneni Group is proud to present Muneni Gated Community, an exclusive development that redefines modern living in Karoi Town. This prestigious project offers a rare opportunity to own a piece of paradise in a secure, contemporary neighborhood.
             </p>
 
             <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-              Nestled in a prime location, Chiedza provides seamless access to Karoi Town's essential amenities, educational institutions, and thriving business centers, all while maintaining a peaceful, secure environment where families and businesses flourish.
+              Nestled in a prime location, Muneni provides seamless access to Karoi Town's essential amenities, educational institutions, and thriving business centers, all while maintaining a peaceful, secure environment where families and businesses flourish.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
@@ -45,24 +45,24 @@ export default function About() {
             <div className="grid grid-cols-2 gap-2 sm:gap-4">
               <div className="space-y-2 sm:space-y-4">
                 <img
-                  src="/WhatsApp_Image_2026-02-09_at_16.16.05.jpeg"
+                  src="/m2.jpeg"
                   alt="Construction progress"
                   className="w-full h-40 sm:h-64 object-cover rounded-lg sm:rounded-2xl shadow-md sm:shadow-xl"
                 />
                 <img
-                  src="/WhatsApp_Image_2026-02-09_at_16.16.04.jpeg"
+                  src="/m3.jpeg"
                   alt="Community development"
                   className="w-full h-32 sm:h-48 object-cover rounded-lg sm:rounded-2xl shadow-md sm:shadow-xl"
                 />
               </div>
               <div className="space-y-2 sm:space-y-4 pt-4 sm:pt-8">
                 <img
-                  src="/WhatsApp_Image_2026-02-09_at_16.16.06.jpeg"
+                  src="/m4.jpeg"
                   alt="Perimeter wall"
                   className="w-full h-32 sm:h-48 object-cover rounded-lg sm:rounded-2xl shadow-md sm:shadow-xl"
                 />
                 <img
-                  src="/WhatsApp_Image_2026-02-09_at_16.16.27_(1).jpeg"
+                  src="/m5.jpeg"
                   alt="Site development"
                   className="w-full h-40 sm:h-64 object-cover rounded-lg sm:rounded-2xl shadow-md sm:shadow-xl"
                 />

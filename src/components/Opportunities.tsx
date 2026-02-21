@@ -1,4 +1,4 @@
-import { Users, Briefcase, Building2, Home } from 'lucide-react';
+import { Briefcase, Building2, Home, Users } from 'lucide-react';
 
 const opportunities = [
   {
@@ -36,7 +36,7 @@ export default function Opportunities() {
             Opportunities for Everyone
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-2">
-            Whether you're looking to build your dream home, grow your investment portfolio, or establish your business, Chiedza has the perfect opportunity for you.
+            Whether you're looking to build your dream home, grow your investment portfolio, or establish your business, Muneni has the perfect opportunity for you.
           </p>
         </div>
 

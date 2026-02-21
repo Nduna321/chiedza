@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Clock, Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -18,7 +18,7 @@ export default function Contact() {
             <div>
               <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Get in Touch</h2>
               <p className="text-gray-300 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8">
-                Our team is ready to assist you with any questions and guide you through the process of securing your ideal property at Chiedza Gated Community.
+                Our team is ready to assist you with any questions and guide you through the process of securing your ideal property at Muneni Gated Community.
               </p>
             </div>
 
@@ -55,7 +55,7 @@ export default function Contact() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <h4 className="font-semibold text-base sm:text-lg mb-1">Location</h4>
-                  <p className="text-gray-300 text-sm sm:text-base">Chiedza Location, Karoi<br />Mashonaland West Province</p>
+                  <p className="text-gray-300 text-sm sm:text-base">Muneni Location, Karoi<br />Mashonaland West Province</p>
                 </div>
               </div>
 

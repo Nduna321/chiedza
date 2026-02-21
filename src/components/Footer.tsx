@@ -1,4 +1,4 @@
-import { Building2, Phone, Mail, MapPin } from 'lucide-react';
+import { Building2, Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
                 <Building2 className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h3 className="text-sm font-bold leading-tight">Chiedza</h3>
+                <h3 className="text-sm font-bold leading-tight">Muneni</h3>
                 <p className="text-xs text-gray-400">Gated Community</p>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-3 sm:pt-4 text-center">
           <p className="text-gray-400 text-xs">
-            {new Date().getFullYear()} Chiedza Gated Community. By Muneni Group. All rights reserved.
+            {new Date().getFullYear()} Muneni Gated Community. By Muneni Group. All rights reserved.
           </p>
         </div>
       </div>

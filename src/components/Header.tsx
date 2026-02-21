@@ -1,5 +1,5 @@
-import { Building2, Menu, X } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { Menu, X } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
 export default function Header() {
@@ -25,11 +25,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="bg-amber-600 w-12 h-12 rounded-lg flex items-center justify-center">
-              <Building2 className="w-7 h-7 text-white" />
-            </div>
+            <img src="/logo.jpeg" alt="Muneni logo" className="w-12 h-12 rounded-lg object-cover shadow-sm" />
             <div>
-              <h1 className={`text-xl font-bold transition-colors ${isScrolled ? 'text-gray-800' : 'text-gray-900'}`}>Chiedza</h1>
+              <h1 className={`text-xl font-bold transition-colors ${isScrolled ? 'text-gray-800' : 'text-gray-900'}`}>Muneni</h1>
               <p className={`text-xs transition-colors ${isScrolled ? 'text-gray-600' : 'text-gray-600'}`}>by Muneni Group</p>
             </div>
           </a>

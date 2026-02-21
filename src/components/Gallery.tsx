@@ -1,40 +1,46 @@
-const images = [
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.04.jpeg', title: 'Site Development', description: 'Professional site preparation' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.05.jpeg', title: 'Gated Entrance', description: 'Secure entrance pillars under construction' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.05_(2).jpeg', title: 'Construction Progress', description: 'Walls taking shape' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.06.jpeg', title: 'Perimeter Wall', description: 'Modern boundary wall development' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.07_(1).jpeg', title: 'Quality Masonry', description: 'Professional brick laying' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.07_(2).jpeg', title: 'Wall Construction', description: 'Building the community boundary' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.08.jpeg', title: 'Site View', description: 'Community development overview' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.08_(1).jpeg', title: 'Development Progress', description: 'Active construction site' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.09.jpeg', title: 'Infrastructure Work', description: 'Road and utility development' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.13.jpeg', title: 'Community Vision', description: 'Landscape and planning' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.14.jpeg', title: 'Development Stage', description: 'Building momentum' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.16.jpeg', title: 'Construction Quality', description: 'Expert workmanship' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.16_(1).jpeg', title: 'Structural Work', description: 'Solid foundations' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.18.jpeg', title: 'Active Site', description: 'Team collaboration' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.18_(1).jpeg', title: 'Construction Team', description: 'Dedicated professionals' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.18_(2).jpeg', title: 'Progress Update', description: 'Building excellence' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.19.jpeg', title: 'Site Overview', description: 'Comprehensive development view' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.19_(1).jpeg', title: 'Future Community', description: 'Vision coming to life' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.21.jpeg', title: 'Quality Standards', description: 'Professional development' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.21_(1).jpeg', title: 'Construction Excellence', description: 'Building community pride' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.21_(2).jpeg', title: 'Development Milestone', description: 'Progress milestone reached' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.23.jpeg', title: 'Infrastructure Details', description: 'Precision construction' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.23_(1).jpeg', title: 'Quality Assurance', description: 'Every detail matters' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.24.jpeg', title: 'Building Progress', description: 'Construction advances' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.25.jpeg', title: 'Landscape Design', description: 'Enhancing the environment' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.25_(1).jpeg', title: 'Site Development', description: 'Creating value' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.26.jpeg', title: 'Community Building', description: 'Construction progress' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.26_(1).jpeg', title: 'Development Drive', description: 'Moving forward' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.26_(2).jpeg', title: 'Quality Focus', description: 'Excellence in construction' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.27.jpeg', title: 'Security Infrastructure', description: 'Quality perimeter wall construction' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.27_(1).jpeg', title: 'Wall Systems', description: 'Comprehensive security' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.27_(2).jpeg', title: 'Construction Update', description: 'Latest progress' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.29.jpeg', title: 'Development View', description: 'Community landscape' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.29_(1).jpeg', title: 'Site Perspective', description: 'Master plan realization' },
-  { src: '/WhatsApp_Image_2026-02-09_at_16.16.30.jpeg', title: 'Community Overview', description: 'Panoramic view of the development site' },
+const galleryMeta = [
+  { title: 'Site Development', description: 'Professional site preparation' },
+  { title: 'Gated Entrance', description: 'Secure entrance pillars under construction' },
+  { title: 'Construction Progress', description: 'Walls taking shape' },
+  { title: 'Perimeter Wall', description: 'Modern boundary wall development' },
+  { title: 'Quality Masonry', description: 'Professional brick laying' },
+  { title: 'Wall Construction', description: 'Building the community boundary' },
+  { title: 'Site View', description: 'Community development overview' },
+  { title: 'Development Progress', description: 'Active construction site' },
+  { title: 'Infrastructure Work', description: 'Road and utility development' },
+  { title: 'Community Vision', description: 'Landscape and planning' },
+  { title: 'Development Stage', description: 'Building momentum' },
+  { title: 'Construction Quality', description: 'Expert workmanship' },
+  { title: 'Structural Work', description: 'Solid foundations' },
+  { title: 'Active Site', description: 'Team collaboration' },
+  { title: 'Construction Team', description: 'Dedicated professionals' },
+  { title: 'Progress Update', description: 'Building excellence' },
+  { title: 'Site Overview', description: 'Comprehensive development view' },
+  { title: 'Future Community', description: 'Vision coming to life' },
+  { title: 'Quality Standards', description: 'Professional development' },
+  { title: 'Construction Excellence', description: 'Building community pride' },
+  { title: 'Development Milestone', description: 'Progress milestone reached' },
+  { title: 'Infrastructure Details', description: 'Precision construction' },
+  { title: 'Quality Assurance', description: 'Every detail matters' },
+  { title: 'Building Progress', description: 'Construction advances' },
+  { title: 'Landscape Design', description: 'Enhancing the environment' },
+  { title: 'Site Development', description: 'Creating value' },
+  { title: 'Community Building', description: 'Construction progress' },
+  { title: 'Development Drive', description: 'Moving forward' },
+  { title: 'Quality Focus', description: 'Excellence in construction' },
+  { title: 'Security Infrastructure', description: 'Quality perimeter wall construction' },
+  { title: 'Wall Systems', description: 'Comprehensive security' },
+  { title: 'Construction Update', description: 'Latest progress' },
+  { title: 'Development View', description: 'Community landscape' },
+  { title: 'Site Perspective', description: 'Master plan realization' },
+  { title: 'Community Overview', description: 'Panoramic view of the development site' },
 ];
+
+const images = galleryMeta.map((g, i) => ({
+  src: `/m${(i % 9) + 2}.jpeg`,
+  title: g.title,
+  description: g.description,
+}));
 
 export default function Gallery() {
   return (
@@ -78,7 +84,7 @@ export default function Gallery() {
 
         <div className="mt-12 sm:mt-16 bg-amber-50 rounded-lg sm:rounded-2xl p-6 sm:p-8 text-center border-2 border-amber-200">
           <p className="text-base sm:text-lg text-gray-700 mb-4 sm:mb-6">
-            Interested in a site visit? See the development firsthand and envision your future at Chiedza.
+            Interested in a site visit? See the development firsthand and envision your future at Muneni.
           </p>
           <a
             href="/contact"

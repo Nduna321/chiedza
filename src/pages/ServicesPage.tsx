@@ -1,4 +1,4 @@
-import { Shield, MapPin, Building, Home, TrendingUp, CheckCircle, Zap, Users, Briefcase } from 'lucide-react';
+import { Briefcase, Building, CheckCircle, Home, MapPin, Shield, TrendingUp, Users, Zap } from 'lucide-react';
 import Footer from '../components/Footer';
 
 const services = [
@@ -59,7 +59,7 @@ export default function ServicesPage() {
               Our Services
             </h1>
             <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-2">
-              Comprehensive services designed to support your investment and lifestyle at Chiedza Gated Community.
+              Comprehensive services designed to support your investment and lifestyle at Muneni Gated Community.
             </p>
           </div>
 
@@ -83,7 +83,7 @@ export default function ServicesPage() {
               Ready to Experience Quality Living?
             </h2>
             <p className="text-sm sm:text-base text-gray-700 mb-6 sm:mb-8 max-w-2xl">
-              Our dedicated team is ready to assist you with any questions about our services and help you find the perfect property at Chiedza Gated Community.
+              Our dedicated team is ready to assist you with any questions about our services and help you find the perfect property at Muneni Gated Community.
             </p>
             <a
               href="/contact"
