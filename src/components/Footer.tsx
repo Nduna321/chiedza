@@ -51,14 +51,14 @@ export default function Footer() {
             <ul className="space-y-1">
               <li className="flex items-start gap-1.5 text-xs">
                 <Phone className="w-3 h-3 text-amber-500 mt-0.5 flex-shrink-0" />
-                <a href="tel:+263778455410" className="text-gray-400 hover:text-amber-500 transition-colors break-all">
-                  +263 77 845 5410
+                <a href="tel:+263789820527" className="text-gray-400 hover:text-amber-500 transition-colors break-all">
+                  +263 78 982 0527
                 </a>
               </li>
               <li className="flex items-start gap-1.5 text-xs">
                 <Mail className="w-3 h-3 text-amber-500 mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@muneniestates.co.zw" className="text-gray-400 hover:text-amber-500 transition-colors break-all">
-                  info@muneniestates.co.zw
+                <a href="mailto:sales@muneniestates.co.zw" className="text-gray-400 hover:text-amber-500 transition-colors break-all">
+                  sales@muneniestates.co.zw
                 </a>
               </li>
               <li className="flex items-start gap-1.5 text-xs">
@@ -81,8 +81,11 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-3 sm:pt-4 text-center">
-          <p className="text-gray-400 text-xs">
+          <p className="text-gray-400 text-sm sm:text-base mb-2">
             {new Date().getFullYear()} Muneni Gated Community. By Muneni Group. All rights reserved.
+          </p>
+          <p className="text-gray-500 text-sm sm:text-base">
+            Developed by <span className="font-bold text-gray-300">Nekutenda Munodawafa (Digital Expert)</span>
           </p>
         </div>
       </div>
